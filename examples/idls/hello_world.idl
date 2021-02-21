@@ -1,0 +1,9 @@
+// HelloWorld.idl
+struct HelloWorld
+{
+string msg;
+string msg2;
+char data[388608];
+sequence<char> alma;
+};
+

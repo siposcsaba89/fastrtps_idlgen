@@ -1,0 +1,9 @@
+#include <hello_world.idl>
+
+struct Structure
+{
+    HelloWorld alma;
+    octet octet_value;
+    long long_value;
+    string string_value;
+};

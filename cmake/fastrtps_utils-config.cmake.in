@@ -1,0 +1,4 @@
+include(CMakeFindDependencyMacro)
+find_dependency(fastcdr CONFIG)
+find_dependency(fastrtps CONFIG)
+include(${CMAKE_CURRENT_LIST_DIR}/fastrtps_utils-targets.cmake)
